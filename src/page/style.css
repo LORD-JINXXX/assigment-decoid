@@ -1,0 +1,1501 @@
+.main {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.alOne .title {
+    width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alOne .content {
+    width: 375px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.alOne .content .skip {
+    width: 36px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.alOne .content .skip h3 {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #9FB2FF;
+    line-height: 19.5px;
+    text-decoration: underline;
+}
+.alOne .content .image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.alOne .content .image img {
+    width: 282px;
+    height: 282px;
+
+}
+
+.alOne .content .trackHeading {
+    width: 160px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.alOne .content .trackHeading h3 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 24.38px;
+}
+
+.alOne .content .trackContent {
+    width: 343px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.alOne .content .trackContent p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #787878;
+}
+
+.alOne .content .eclipse2 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-right: 3px solid #89A1FF;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-right: 15px;
+}
+
+.alOne .content .eclipse2 .eclipse1 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(to left, #DEE5FF,#809AFF);
+}
+
+.alOne .content .eclipse2 .eclipse1 svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.alTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.alTwo .title {
+    width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alTwo .content {
+    width: 375px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.alTwo .content .skip {
+    width: 36px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.alTwo .content .skip h3 {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #9FB2FF;
+    line-height: 19.5px;
+    text-decoration: underline;
+}
+.alTwo .content .image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.alTwo .content .image img {
+    width: 352px;
+    height: 234.61px;
+
+}
+
+.alTwo .content .trackHeading {
+    width: 93px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.alTwo .content .trackHeading h3 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 24.38px;
+}
+
+.alTwo .content .trackContent {
+    width: 343px;
+    height: 60px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.alTwo .content .trackContent p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #787878;
+}
+
+.alTwo .content .eclipse2 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-top: 3px solid #89A1FF;
+    border-right: 3px solid #89A1FF;
+    border-bottom: 3px solid #89A1FF;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-right: 15px;
+}
+
+.alTwo .content .eclipse2 .eclipse1 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(to left, #DEE5FF,#809AFF);
+}
+
+.alTwo .content .eclipse2 .eclipse1 svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.alThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.alThree .title {
+    width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alThree .content {
+    width: 375px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+
+.alThree .content .one {
+    width: 165px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.alThree .content .form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+
+.alThree .content .form .two {
+    width: 315px;
+    height: 50px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #7F7F7F;
+    margin: 10px 0;
+}
+
+.alThree .content .three {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.alThree .content .three input {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.alThree .content .three p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 313px;
+    height: 21px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alThree .content .three p a {
+    color: #809AFF;
+}
+
+.alThree .content .four  {
+    position: relative;
+    top: 100px;
+    width: 343px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #7B91FF, #95BEFF);
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alThree .content .five {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.alThree .content .five .line {
+    width: 155px;
+    border: .5px solid #7F7F7F;
+    margin: 0 3px;
+}
+
+.alThree .content .five .logo {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #2C2B2B;
+    margin: 0 3px;
+}
+
+.alThree .content .six {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 175px;
+}
+
+.alThree .content .six .logo {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #7F7F7F;
+    border-radius: 8px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alThree .content .six .logo img {
+    width: 18px;
+    height: 18px;
+}
+
+.alThree .content .seven {
+    width: 195px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alThree .content .seven a {
+    margin-left: 1px;
+    color: #7B91FF;
+}
+
+
+.alFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.alFour .title {
+    width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alFour .content {
+    width: 375px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+
+.alFour .content .one {
+    width: 165px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.alFour .content .form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+
+.alFour .content .form .two {
+    width: 315px;
+    height: 50px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #7F7F7F;
+    margin: 10px 0;
+}
+
+.alFour .content .form .two svg {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+}
+
+.alFour .content .three {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.alFour .content .three p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 140px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline;
+    color: #7F7F7F;
+    margin-left: 12px;
+}
+
+.alFour .content .four  {
+    position: relative;
+    top: 275px;
+    width: 343px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #7B91FF, #95BEFF);
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alFour .content .five {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+
+.alFour .content .five .line {
+    width: 155px;
+    border: .5px solid #7F7F7F;
+    margin: 0 3px;
+}
+
+.alFour .content .five .logo {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #2C2B2B;
+    margin: 0 3px;
+}
+
+.alFour .content .six {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 325px;
+}
+
+.alFour .content .six .logo {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #7F7F7F;
+    border-radius: 8px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alFour .content .six .logo img {
+    width: 18px;
+    height: 18px;
+}
+
+.alFour .content .seven {
+    width: 281px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alFour .content .seven a {
+    margin-left: 1px;
+    color: #7B91FF;
+}
+
+
+.alFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.alFive .title {
+    width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alFive .content {
+    width: 375px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.alFive .content .one {
+    width: 219px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 30px;
+}
+
+.alFive .content .form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 65px;
+}
+
+.alFive .content .form .two {
+    width: 315px;
+    height: 50px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #2C2B2B;
+    margin: 10px 0;
+}
+
+.alFive .content .form .two input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    border: 1.5px solid #7B91FF;
+    border-radius: 5px;
+    margin-left: auto;
+    appearance: none;
+}
+
+.alFive .content .three {
+    width: 343px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    background: linear-gradient(to left, #7B91FF, #95BEFF);
+    position: relative;
+    top: 175px;
+    border-radius: 12px;
+}
+
+
+.alSix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.alSix .title {
+    width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alSix .content {
+    width: 375px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.alSix .content .one {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.alSix .content .one .left {
+    width: 20px;
+    height: 20px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 3px;
+} 
+
+.alSix .content .one .left svg {
+    width: 15px;
+    height: 15px;
+}
+
+.alSix .content .one .right {
+    width: 172px;
+    height: 24px;
+    margin-left: 60px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alSix .content .two {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    flex-direction: column;
+}
+
+.alSix .content .two .good {
+    width: 61px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11.2px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #2C2B2B;
+    position: relative;
+    top: 3px;
+    right: 15px;
+}
+
+.alSix .content .two .cal {
+    width: 99px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11.2px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #2C2B2B;
+    position: relative;
+    top: -12px;
+    left: 100px;
+}
+
+.alSix .content .two .u1 {
+    display: none;
+}
+
+.alSix .content .two .u2 {
+    position: relative;
+    top: -7px;
+    left: -17px;
+}
+
+.alSix .content .two .u3 {
+    position: relative;
+    top: -18px;
+    left: 97px;
+}
+
+.alSix .content .three {
+    width: 328.75px;
+    height: 50px;
+    background: linear-gradient(to right, #aabcff, #f6f6f6, #f6f6f6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 130px;
+    border-radius: 10px;
+}
+
+.alSix .content .three svg {
+    width: 25px;
+    height: 25px;
+    fill: #536ef5;
+    margin: 0 10px;
+}
+
+.alSix .content .three p {
+    width: 281px;
+    height: 30px;
+    font-size: 12.57px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alSix .content .four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 180px;
+}
+
+.alSix .content .four .left {
+    width: 164px;
+    height: 20px;
+    margin-right: auto;
+    margin-left: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alSix .content .four .right {
+    width: 58px;
+    height: 15px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #7F7F7F;
+}
+
+.alSix .content .five {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 343px;
+    height: 75px;
+    border-radius: 12px;
+    box-shadow: -4px 8px 25px -8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 5px;
+}
+
+.alSix .content .five .left {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: rgba(129, 154, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alSix .content .five .left img {
+    width: 50px;
+    height: 50px;
+}
+
+.alSix .content .five .middle {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.alSix .content .five .middle h3 {
+    width: 114px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(44, 43, 43, 1);
+}
+
+.alSix .content .five .middle h4  {
+    width: 56px;
+    height: 12px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(127, 127, 127, 1);
+}
+
+.alSix .content .five .right {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.alSix .content .five .right img {
+    width: 40px;
+    height: 20px;
+}
+
+.alSix .content .six {
+    width: 225px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 215px;
+    margin-right: auto;
+    margin-left: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(44, 43, 43, 1);
+}
+
+.alSix .content .seven {
+    width: 343px;
+    height: 124px;
+    border-radius: 12px;
+    background-color: rgba(140, 177, 255, 0.6);
+    position: relative;
+    top: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alSix .content .seven .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    height: 50%;
+    margin: 7px 10px;
+}
+
+.alSix .content .seven .left .h3 {
+    width: 114px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(44, 43, 43, 1);
+}
+
+.alSix .content .seven .left .h4 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0;
+}
+
+.alSix .content .seven .left .h4 span {
+    width: 30px;
+    height: 12px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(44, 43, 43, 1);
+    margin: 2px 0;
+}
+
+.alSix .content .seven .right {
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.alSix .content .seven .right .image {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 50%;
+}
+
+.alSix .content .seven .right .image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.alSix .content .eight {
+    width: 375px;
+    height: 76px;
+    position: relative;
+    top: 175px;
+    background-color: #fff;
+}
+
+.alSix .content .eight .search {
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(222, 229, 255, 1), rgba(128, 154, 255, 1));
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 150px;
+}
+
+.alSix .content .eight .search svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.alSix .content .eight .menu {
+    width: 317px;
+    height: 27.22px;
+    position: relative;
+    top: -50px;
+    left: 25px;
+}
+
+.alSix .content .eight .menu .home {
+    width: 26.59px;
+    height: 26.54px;
+    color: rgba(127, 127, 127, 1);
+    position: relative;
+}
+
+.alSix .content .eight .menu .vector {
+    width: 27.22px;
+    height: 27.22px;
+    color: rgba(130, 157, 255, 1);
+    position: relative;
+    left: 30px;
+}
+
+.alSix .content .eight .menu .camera {
+    width: 29.26px;
+    height: 26.54px;
+    color: rgba(127, 127, 127, 1);
+    position: relative;
+    left: 180px;
+}
+
+.alSix .content .eight .menu .person {
+    width: 21.77px;
+    height: 21.78px;
+    color: rgba(127, 127, 127, 1);
+    position: relative;
+    left: 210px;
+}
+
+.alSeven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.alSeven .title {
+    width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.alSeven .content {
+    width: 375px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.alSeven .content .one {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.alSeven .content .one .left {
+    width: 20px;
+    height: 20px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 3px;
+} 
+
+.alSeven .content .one .left svg {
+    width: 15px;
+    height: 15px;
+}
+
+.alSeven .content .one .right {
+    width: 192px;
+    height: 24px;
+    margin-left: 60px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alSeven .content .two {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 25px;
+}
+
+.alSeven .content .two .left {
+    width: 5px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.alSeven .content .two .left svg {
+    width: 5px;
+    height: 8px;
+    fill: rgba(44, 43, 43, 1);
+}
+
+
+.alSeven .content .two .right {
+    width: 5px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.alSeven .content .two .right svg {
+    width: 5px;
+    height: 8px;
+    fill: rgba(44, 43, 43, 1);
+}
+
+.alSeven .content .two .middle {
+    width: 57px;
+    height: 15px;
+    color: rgba(44, 43, 43, 1);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.alSeven .content .three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 342px;
+    height: 76.85px;
+    position: relative;
+    top: 60px;
+}
+
+.alSeven .content .three .date {
+    width: 62.67px;
+    height: 76.24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 3px;
+    border-radius: 9.96px;
+}
+
+.alSeven .content .three .date .day {
+    font-size: 11.39px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    margin: 8px 0 0 0;
+}
+
+.alSeven .content .three .date .num {
+    font-size: 28.46px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+}
+
+.alSeven .content .three .dateColor {
+    width: 62.67px;
+    height: 76.24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 3px;
+    background: linear-gradient(to right, rgba(222, 229, 255, 1), rgba(128, 154, 255, 1));
+    border-radius: 9.96px;
+}
+
+.alSeven .content .three .dateColor .day {
+    font-size: 11.39px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    margin: 8px 0 0 0;
+}
+
+.alSeven .content .three .dateColor .num {
+    font-size: 28.46px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+}
+
+.alSeven .content .four {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+}
+
+.alSeven .content .four .timeContainer {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alSeven .content .four .timeContainer .time {
+    width: 60px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 13px;
+    color: rgba(44, 43, 43, 1);
+}
+
+.alSeven .content .four .timeContainer .line {
+    width: 375px;
+    border: .5px solid rgba(127, 127, 127, .2);
+    margin-top: 10px;
+}
+
+.alSeven .content .four .contentOne {
+    position: relative;
+    top: -370px;
+    left: 220px;
+    width: 149px;
+    height: 30px;
+    background: linear-gradient(to left, rgba(211, 164, 244, 1), rgba(233, 177, 224, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.alSeven .content .four .contentOne span {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.alSeven .content .four .contentTwo {
+    position: relative;
+    top: -345px;
+    left: 100px;
+    width: 189px;
+    height: 30px;
+    background: linear-gradient(to left, rgba(211, 164, 244, 1), rgba(233, 177, 224, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.alSeven .content .four .contentTwo span {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.alSeven .content .four .lineWhite {
+    width: 185px;
+    height: 10px;
+    background-color: #fff;
+    position: relative;
+    top: -368px;
+    left: 100px;
+}
+
+.alSeven .content .four .lineBlue {
+    width: 307px;
+    border: 1px solid rgba(88, 131, 247, 1);
+    position: relative;
+    top: -378px;
+    left: 0px;
+}
+
+
+.alSeven .content .four .contentThree {
+    position: relative;
+    top: -208px;
+    left: 100px;
+    width: 173px;
+    height: 30px;
+    background-color: rgba(241, 241, 241, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.alSeven .content .four .contentThree span {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(44, 43, 43, 1);
+}
+
+.alSeven .content .four .search {
+    width: 63px;
+    height: 63px;
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(to left, rgba(233, 177, 224, 1), rgba(211, 165, 242, 1));
+    border-radius: 50%;
+    position: relative;
+    top: -210px;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alSeven .content .four .search svg {
+    width: 21px;
+    height: 21px;
+    fill: #fff;
+}
+
+
+.alSeven .content .five {
+    width: 375px;
+    height: 76px;
+    position: relative;
+    top: -40px;
+    background-color: #fff;
+}
+
+.alSeven .content .five .search {
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(222, 229, 255, 1), rgba(128, 154, 255, 1));
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    left: 150px;
+}
+
+.alSeven .content .five .search svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.alSeven .content .five .menu {
+    width: 317px;
+    height: 27.22px;
+    position: relative;
+    top: -50px;
+    left: 25px;
+}
+
+.alSeven .content .five .menu .home {
+    width: 26.59px;
+    height: 26.54px;
+    color: rgba(127, 127, 127, 1);
+    position: relative;
+}
+
+.alSeven .content .five .menu .vector {
+    width: 27.22px;
+    height: 27.22px;
+    color: rgba(130, 157, 255, 1);
+    position: relative;
+    left: 30px;
+}
+
+.alSeven .content .five .menu .camera {
+    width: 29.26px;
+    height: 26.54px;
+    color: rgba(127, 127, 127, 1);
+    position: relative;
+    left: 180px;
+}
+
+.alSeven .content .five .menu .person {
+    width: 21.77px;
+    height: 21.78px;
+    color: rgba(127, 127, 127, 1);
+    position: relative;
+    left: 210px;
+}
